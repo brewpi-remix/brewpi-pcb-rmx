@@ -1,33 +1,42 @@
-Partlist exported from C:/Users/lee/OneDrive/Desktop/BrewPi/Git/brewpi-pcb-rmx/shield/BrewPi Shield.sch at 6/23/2019 3:06 PM
+Partlist exported from C:/Users/lee/OneDrive/Desktop/BrewPi/Git/brewpi-pcb-rmx/shield/BrewPi Shield.sch at 6/23/2019 3:21 PM
 
-Part   Value                  Device                 Package            Description                                            MF MPN        OC_FARNELL OC_NEWARK PACKAGE SUPPLIER         
-BTOOTH                        MA04-1                 MA04-1             PIN HEADER                                                           unknown    unknown                            
-C1     .1UF                   CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                          
-C2     .1UF                   CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                          
-C3     .1UF                   CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                          
-C4     .1UF                   CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                          
-C5                            CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                          
-C6                            CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                          
-C7                            CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                          
-C8     1.0UF                  CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                          
-J1     ARDUINO_R3_SHIELD_ICSP ARDUINO_R3_SHIELD_ICSP UNO_R3_SHIELD_ICSP Arduino R3 Shield Footprint w/ 6-pin (2x3) ICSP Header                                                             
-LCD    16 pin                 PINHD-1X16             1X16               PIN HEADER                                                                                                         
-LEDS                          PINHD-1X2              1X02               PIN HEADER                                                                                                         
-PROBE1                        MA03-1                 MA03-1             PIN HEADER                                                           unknown    unknown                            
-PROBE2                        MA03-1                 MA03-1             PIN HEADER                                                           unknown    unknown                            
-PROBE3                        MA03-1                 MA03-1             PIN HEADER                                                           unknown    unknown                            
-Q1     2N3906                 2N3906                 TO92               PNP Transistor                                                                                                     
-R1     10K                    R-TRIMM3296Y           RTRIM3296Y         Trimm resistor                                                                                                     
-R2     0-20K                  RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R3     10K                    RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R4     10K                    RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R5     10K                    RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R6     4.7K                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R7     1K                     RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R8     2K                     RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R9     220                    RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R10    220                    RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R11    150 Ohm                RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-R12    10k Ohm                RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                           
-RELAY                         MA04-1                 MA04-1             PIN HEADER                                                           unknown    unknown                            
-U1     SN74HC595N             SN74HC595N             DIP254P762X508-16  8-BIT SHIFT REGISTERS WITH 3-STATE OUTPUT REGISTERS       SN74HC595N 9591664    60K6845   PDIP-16 Texas Instruments
+Part           Value                  Device                 Package            Description                                            MF MPN        OC_FARNELL OC_NEWARK PACKAGE SPICEMODEL SPICEPREFIXL SUPPLIER         
+ALARM          2 pin                  HEADER02-1             HEADER02-1         PIN HEADER                                                                                                                                 
+C1             0.1μF                  CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                                                  
+C2             0.1μF                  CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                                                  
+C3             0.1μF                  CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                                                  
+C4             0.1μF                  CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                                                  
+C5             0.1μF                  CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                                                  
+C6             0.1μF                  CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                                                  
+C7             0.1μF                  CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                                                  
+C8             1.0μF                  CAPKIT                 CAP-PTH-SMALL-KIT  Capacitor                                                                                                                                  
+COOL_LED       3 pin                  HEADER03-1             HEADER03-1         PIN HEADER                                                           unknown    unknown                                                    
+DOOR           2 pin                  HEADER02-1             HEADER02-1         PIN HEADER                                                                                                                                 
+HEAT_LED       3 pin                  HEADER03-1             HEADER03-1         PIN HEADER                                                           unknown    unknown                                                    
+I2C_LED        4 pin                  HEADER04-1             HEADER04-1         PIN HEADER                                                           unknown    unknown                                                    
+J1             ARDUINO_R3_SHIELD_ICSP ARDUINO_R3_SHIELD_ICSP UNO_R3_SHIELD_ICSP Arduino R3 Shield Footprint w/ 6-pin (2x3) ICSP Header                                                                                     
+ONE_WIRE_SEL   3 pin                  HEADER03-1             HEADER03-1         PIN HEADER                                                           unknown    unknown                                                    
+PARALLEL_LCD_1 6 pin                  HEADER06-1             HEADER06-1         PIN HEADER                                                           unknown    unknown                                                    
+PARALLEL_LCD_2 6 pin                  HEADER06-1             HEADER06-1         PIN HEADER                                                           unknown    unknown                                                    
+PROBE1         3 pin                  HEADER03-1             HEADER03-1         PIN HEADER                                                           unknown    unknown                                                    
+PROBE2         3 pin                  HEADER03-1             HEADER03-1         PIN HEADER                                                           unknown    unknown                                                    
+PROBE3         3 pin                  HEADER03-1             HEADER03-1         PIN HEADER                                                           unknown    unknown                                                    
+Q1             2N3906                 2N3906                 TO92               PNP Transistor                                                                                                                             
+R1             10kΩ                   R-TRIMM3296Y           RTRIM3296Y         Trimm resistor                                                                                    X          POT                           
+R2             20kΩ                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R3             10kΩ                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R4             10kΩ                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R5             10kΩ                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R6             4.7kΩ                  RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R7             2kΩ                    RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R8             1kΩ                    RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R9             220Ω                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R10            220Ω                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R11            150Ω                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R12            10kΩ                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+R13*           10kΩ                   RESISTORAXIAL-0.3      AXIAL-0.3          Resistor                                                                                                                                   
+RELAY          4 pin                  HEADER04-1             HEADER04-1         PIN HEADER                                                           unknown    unknown                                                    
+RJ45           RJ45-8X                RJ45-8X                RJ45-NO-SHIELD     CORCOM Modular RJ Jacks No Shield                         RJ45-8X    unknown    16R6101                                                    
+ROT_ENC        4 pin                  HEADER04-1             HEADER04-1         PIN HEADER                                                           unknown    unknown                                                    
+SERIAL         4 pin                  HEADER04-1             HEADER04-1         PIN HEADER                                                           unknown    unknown                                                    
+U1             SN74HC595N             SN74HC595N             DIP254P762X508-16  8-BIT SHIFT REGISTERS WITH 3-STATE OUTPUT REGISTERS       SN74HC595N 9591664    60K6845   PDIP-16                         Texas Instruments

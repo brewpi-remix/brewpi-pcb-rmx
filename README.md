@@ -7,7 +7,20 @@ This repository contains the Eagle files for printed circuit boards supporting [
 Before we proceed, a huge thank you to [Elco Jacobs](https://github.com/elcojacobs), without whom none of this would be possible. Also, these circuit boards were originally inspired by the work of [@day_trippr](https://www.homebrewtalk.com/forum/members/day_trippr.81618/) on [Homebrewtalk.com](https://www.homebrewtalk.com/forum/threads/how-to-brewpi-lcd-add-on.510036/), and originally released by [@Cadibrewer](https://www.homebrewtalk.com/forum/members/cadibrewer.149782/).
 
 # Boards Provided
-Within this repository is an Arduino shield supporting BrewPi Legacy RevC
+Within this repository are:
+
+- Arduino shield supporting BrewPi Remix RevC as well as I2C
+- Rotary Encoder breakout to facilitate connecting the rotary encoder with DuPont wires
+- Shield breakout providing all possible connections via screw terminals as well as DuPont connections, plus heat/cool LED indicators
+
+# Boards Manufacture
+You may order borads for manufacture directly from these links:
+- Arduino shield
+  - [OshPark](https://oshpark.com/shared_projects/0o4hGcLB)
+- Shield breakout
+  - [OshPark](https://oshpark.com/shared_projects/3nLLkQbX)
+- Rotary Encoder breakout
+  - [OshPark](https://oshpark.com/shared_projects/1VFBXd7Y)
 
 # Modifying These Files
 
