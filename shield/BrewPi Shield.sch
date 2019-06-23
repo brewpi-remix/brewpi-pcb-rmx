@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -5192,7 +5192,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <part name="PARALLEL_LCD_2" library="LBussy" deviceset="HEADER06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="6 pin"/>
 <part name="PARALLEL_LCD_1" library="LBussy" deviceset="HEADER06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="6 pin"/>
 <part name="ALARM" library="LBussy" deviceset="HEADER02-1" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="2 pin"/>
-<part name="R13*" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="10kΩ"/>
+<part name="BACKLIGHT" library="LBussy" deviceset="HEADER03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="3 pin"/>
 </parts>
 <sheets>
 <sheet>
@@ -5306,12 +5306,12 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="NAME" x="26.67" y="40.4114" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="26.67" y="45.212" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R12" gate="G$1" x="58.42" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.4134" y="29.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="61.976" y="28.448" size="1.778" layer="96" rot="R90"/>
+<instance part="R12" gate="G$1" x="68.58" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.5734" y="26.67" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="72.136" y="25.908" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q1" gate="G$1" x="58.42" y="39.37" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="53.34" y="44.45" size="1.778" layer="96" rot="MR180"/>
+<instance part="Q1" gate="G$1" x="68.58" y="39.37" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="63.5" y="44.45" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="ONE_WIRE_SEL" gate="G$1" x="55.88" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="54.61" y="-10.16" size="1.778" layer="96"/>
@@ -5353,9 +5353,9 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="NAME" x="80.01" y="-37.465" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="-48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="R13*" gate="G$1" x="68.58" y="36.83" smashed="yes" rot="R180">
-<attribute name="NAME" x="72.39" y="35.3314" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="72.39" y="40.132" size="1.778" layer="96" rot="R180"/>
+<instance part="BACKLIGHT" gate="G$1" x="68.58" y="12.7" smashed="yes" rot="R90">
+<attribute name="VALUE" x="72.39" y="10.668" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="75.438" y="21.59" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -5439,11 +5439,17 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="48.26" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 <junction x="58.42" y="48.26"/>
+<wire x1="81.28" y1="48.26" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <junction x="33.02" y="48.26"/>
 <junction x="43.18" y="48.26"/>
+<pinref part="BACKLIGHT" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="20.32" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="22.86" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
+<junction x="81.28" y="48.26"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="~OE"/>
@@ -5499,11 +5505,6 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <pinref part="ALARM" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="-43.18" x2="78.74" y2="-43.18" width="0.1524" layer="91"/>
 <label x="73.66" y="-43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R13*" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="36.83" x2="76.2" y2="36.83" width="0.1524" layer="91"/>
-<label x="73.406" y="36.83" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1WIRE" class="0">
@@ -5809,7 +5810,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <net name="N$7" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="41.91" x2="27.94" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="41.91" x2="27.94" y2="41.91" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -5886,7 +5887,19 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <label x="86.36" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-12.7" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="VCC"/>
+<wire x1="15.24" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
+<label x="10.16" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="5V@ICSP"/>
+<wire x1="91.44" y1="2.54" x2="86.36" y2="2.54" width="0.1524" layer="91"/>
+<label x="86.36" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="-12.7" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="0" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="A"/>
@@ -5919,31 +5932,18 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <wire x1="43.18" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
 <junction x="58.42" y="55.88"/>
+<wire x1="76.2" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <junction x="33.02" y="55.88"/>
 <junction x="43.18" y="55.88"/>
-</segment>
-<segment>
+<wire x1="0" y1="33.02" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<junction x="0" y="55.88"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
-<wire x1="63.5" y1="41.91" x2="68.834" y2="41.91" width="0.1524" layer="91"/>
-<label x="65.532" y="42.164" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="VCC"/>
-<wire x1="15.24" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
-<label x="10.16" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="5V@ICSP"/>
-<wire x1="91.44" y1="2.54" x2="86.36" y2="2.54" width="0.1524" layer="91"/>
-<label x="86.36" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="0" y1="33.02" x2="0" y2="38.1" width="0.1524" layer="91"/>
-<label x="0" y="38.1" size="1.778" layer="95"/>
+<wire x1="76.2" y1="55.88" x2="76.2" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="41.91" x2="73.66" y2="41.91" width="0.1524" layer="91"/>
+<junction x="76.2" y="55.88"/>
 </segment>
 <segment>
 <pinref part="RELAY" gate="1" pin="4"/>
@@ -6009,23 +6009,27 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <label x="73.66" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="B"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="36.83" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="36.83" x2="63.5" y2="36.83" width="0.1524" layer="91"/>
-<junction x="58.42" y="36.83"/>
-<pinref part="R13*" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="QC" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="QC"/>
-<wire x1="50.8" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="22.86" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
 <label x="50.8" y="22.86" size="1.778" layer="95"/>
+<pinref part="BACKLIGHT" gate="G$1" pin="3"/>
+<wire x1="66.04" y1="20.32" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="22.86" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="BACKLIGHT" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="20.32" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
+<wire x1="68.58" y1="33.02" x2="68.58" y2="36.83" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

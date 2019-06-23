@@ -1,5 +1,6 @@
 "Part";"Value";"Device";"Package";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PACKAGE";"SPICEMODEL";"SPICEPREFIXL";"SUPPLIER";
 "ALARM";"2 pin";"HEADER02-1";"HEADER02-1";"PIN HEADER";"";"";"";"";"";"";"";"";
+"BACKLIGHT";"3 pin";"HEADER03-1";"HEADER03-1";"PIN HEADER";"";"";"unknown";"unknown";"";"";"";"";
 "C1";"0.1μF";"CAPKIT";"CAP-PTH-SMALL-KIT";"Capacitor";"";"";"";"";"";"";"";"";
 "C2";"0.1μF";"CAPKIT";"CAP-PTH-SMALL-KIT";"Capacitor";"";"";"";"";"";"";"";"";
 "C3";"0.1μF";"CAPKIT";"CAP-PTH-SMALL-KIT";"Capacitor";"";"";"";"";"";"";"";"";
@@ -32,7 +33,6 @@
 "R10";"220Ω";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";"";"";
 "R11";"150Ω";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";"";"";
 "R12";"10kΩ";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";"";"";
-"R13*";"10kΩ";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";"";"";
 "RELAY";"4 pin";"HEADER04-1";"HEADER04-1";"PIN HEADER";"";"";"unknown";"unknown";"";"";"";"";
 "RJ45";"RJ45-8X";"RJ45-8X";"RJ45-NO-SHIELD";"CORCOM Modular RJ Jacks No Shield";"";"RJ45-8X";"unknown";"16R6101";"";"";"";"";
 "ROT_ENC";"4 pin";"HEADER04-1";"HEADER04-1";"PIN HEADER";"";"";"unknown";"unknown";"";"";"";"";

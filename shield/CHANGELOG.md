@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.3.1] - 2019-06-02
+Update to allow flexible configuration of the backlight.
+
+### Added
+  - Jumper cap header to select between backlight on a timer (requires rotary encoder or a button to wake it up) vs having the backlight always on.
+
+### Changed
+  - R12 now provides sink for transistor in either backlight configuration.
+
+### Removed
+  - Removed R13
+
 ## [v1.3] - 2019-06-01
 This is v1.3, code named: "The One Shield."  I can't see where we can do anything different with the Arduino Uno.  Perhaps most significantly, this shield provides hardware support for an I2C display (there's important information about this below).  There are other improvements which I think you guys are gonna dig.
 
