@@ -6,6 +6,9 @@ This repository contains the Eagle files for printed circuit boards supporting [
 
 Before we proceed, a huge thank you to [Elco Jacobs](https://github.com/elcojacobs), without whom none of this would be possible. Also, these circuit boards were originally inspired by the work of [@day_trippr](https://www.homebrewtalk.com/forum/members/day_trippr.81618/) on [Homebrewtalk.com](https://www.homebrewtalk.com/forum/threads/how-to-brewpi-lcd-add-on.510036/), and originally released by [@Cadibrewer](https://www.homebrewtalk.com/forum/members/cadibrewer.149782/).
 
+# Boards Provided
+Within this repository is an Arduino shield supporting BrewPi Legacy RevC
+
 # Modifying These Files
 
 If you would like to personalize these board designs, you may modify them with [Autodesk's EAGLE](https://www.autodesk.com/products/eagle/overview). EAGLE is a scriptable electronic design automation (EDA) application with schematic capture, printed circuit board (PCB) layout, auto-router and computer-aided manufacturing (CAM) features. EAGLE stands for Easily Applicable Graphical Layout Editor and is developed by CadSoft Computer GmbH. The company was acquired by Autodesk Inc. in 2016.  
