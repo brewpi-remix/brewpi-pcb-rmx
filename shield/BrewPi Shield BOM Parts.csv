@@ -8,14 +8,13 @@
 "C6";"";"CAPKIT";"CAP-PTH-SMALL-KIT";"Capacitor";"";"";"";"";"";"";
 "C7";"";"CAPKIT";"CAP-PTH-SMALL-KIT";"Capacitor";"";"";"";"";"";"";
 "C8";"1.0UF";"CAPKIT";"CAP-PTH-SMALL-KIT";"Capacitor";"";"";"";"";"";"";
-"D1";"1N4004";"1N4004";"DO41-10";"DIODE";"";"";"";"";"";"";
-"D2";"1N4004";"1N4004";"DO41-10";"DIODE";"";"";"";"";"";"";
 "J1";"ARDUINO_R3_SHIELD_ICSP";"ARDUINO_R3_SHIELD_ICSP";"UNO_R3_SHIELD_ICSP";"Arduino R3 Shield Footprint w/ 6-pin (2x3) ICSP Header";"";"";"";"";"";"";
 "LCD";"16 pin";"PINHD-1X16";"1X16";"PIN HEADER";"";"";"";"";"";"";
 "LEDS";"";"PINHD-1X2";"1X02";"PIN HEADER";"";"";"";"";"";"";
 "PROBE1";"";"MA03-1";"MA03-1";"PIN HEADER";"";"";"unknown";"unknown";"";"";
 "PROBE2";"";"MA03-1";"MA03-1";"PIN HEADER";"";"";"unknown";"unknown";"";"";
 "PROBE3";"";"MA03-1";"MA03-1";"PIN HEADER";"";"";"unknown";"unknown";"";"";
+"Q1";"2N3906";"2N3906";"TO92";"PNP Transistor";"";"";"";"";"";"";
 "R1";"10K";"R-TRIMM3296Y";"RTRIM3296Y";"Trimm resistor";"";"";"";"";"";"";
 "R2";"0-20K";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
 "R3";"10K";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
@@ -25,8 +24,8 @@
 "R7";"1K";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
 "R8";"2K";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
 "R9";"220";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
-"R10";"20-30";"RESISTORPTH-1/2W";"AXIAL-0.5";"Resistor";"";"";"";"";"";"";
-"R11";"220";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
-"RELAY";"555";"MA04-1";"MA04-1";"PIN HEADER";"";"";"unknown";"unknown";"";"";
+"R10";"220";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
+"R11";"150 Ohm";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
+"R12";"10k Ohm";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
+"RELAY";"";"MA04-1";"MA04-1";"PIN HEADER";"";"";"unknown";"unknown";"";"";
 "U1";"SN74HC595N";"SN74HC595N";"DIP254P762X508-16";"8-BIT SHIFT REGISTERS WITH 3-STATE OUTPUT REGISTERS";"";"SN74HC595N";"9591664";"60K6845";"PDIP-16";"Texas Instruments";
-"U2";"P-CHANNEL-MOSFET";"P-CHANNEL-MOSFET";"SOT23-3";"P-Channel MOSFET Mode Field Effect Transistor";"";"";"";"";"";"";
