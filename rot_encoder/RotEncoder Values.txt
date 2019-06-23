@@ -1,0 +1,5 @@
+Partlist exported from C:/Users/lee/OneDrive/Desktop/BrewPi/Git/brewpi-pcb-rmx/rot_encoder/RotEncoder.sch at 6/23/2019 3:33 PM
+
+Qty Value        Device     Package       Parts Description                                  MF MPN          OC_FARNELL OC_NEWARK
+1   4-Pin Header HEADER04-1 HEADER04-1    SV1   PIN HEADER                                                   unknown    unknown  
+1   EC12E_SW     EC12E_SW   ALPS_EC12E_SW SW1   ALPS rotary Encoder EC12E series with switch    EC12E2424407 1520813    74M1068  

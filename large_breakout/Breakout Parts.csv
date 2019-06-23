@@ -1,0 +1,18 @@
+"Part";"Value";"Device";"Package";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PROD_ID";"VALUE";
+"D1";"HINV";"LED3MM";"LED_3MM";"LED (Generic)";"";"";"";"";"DIO-08794";"";
+"D2";"HNON";"LED3MM";"LED_3MM";"LED (Generic)";"";"";"";"";"DIO-08794";"";
+"D3";"CINV";"LED3MM";"LED_3MM";"LED (Generic)";"";"";"";"";"DIO-08794";"";
+"D4";"CNON";"LED3MM";"LED_3MM";"LED (Generic)";"";"";"";"";"DIO-08794";"";
+"DOOR";"2-PIN";"CONN_02";"1X02";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";
+"ONE_WIRE1";"3-PIN";"CONN_03";"1X03";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"XXX-00000";"455-1750-1-ND";
+"ONE_WIRE2";"3-PIN";"CONN_03";"1X03";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"XXX-00000";"455-1750-1-ND";
+"ONE_WIRE3";"3-PIN";"CONN_03";"1X03";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"XXX-00000";"455-1750-1-ND";
+"R1";"220Ω";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
+"R2";"220Ω";"RESISTORAXIAL-0.3";"AXIAL-0.3";"Resistor";"";"";"";"";"";"";
+"RELAY";"4-PIN";"CONN_04PTH";"1X04";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"CONN-09696";"";
+"RELAY_TERM";"4TERM";"W237-4";"W237-4";"WAGO SCREW CLAMP";"";"";"unknown";"unknown";"";"";
+"X1";"RJ45-8X";"RJ45-8X";"RJ45-NO-SHIELD";"CORCOM Modular RJ Jacks No Shield";"";"RJ45-8X";"unknown";"16R6101";"";"";
+"X2";"4TERM";"W237-102";"W237-102";"WAGO SCREW CLAMP";"";"237-102";"unknown";"70K9898";"";"";
+"X3";"3TERM";"W237-103";"W237-103";"WAGO SCREW CLAMP";"";"237-103";"unknown";"18M7116";"";"";
+"X4";"3TERM";"W237-103";"W237-103";"WAGO SCREW CLAMP";"";"237-103";"unknown";"18M7116";"";"";
+"X5";"3TERM";"W237-103";"W237-103";"WAGO SCREW CLAMP";"";"237-103";"unknown";"18M7116";"";"";
