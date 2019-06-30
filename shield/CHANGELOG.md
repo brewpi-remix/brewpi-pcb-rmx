@@ -4,18 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [***Next***] - 2019-***xx***-***xx***
-***Need description***
+## [v1.3.1a] - 2019-06-30
+Mostly adjustments after having the first fab run done
 
 ### Added
-  - 
+  - N/A
 
 ### Changed
   - Silk screens for backlight and OneWire selector moved for visibility
   - Removed some vias and re-routed some traces
 
 ### Removed
-  - 
+  - N/A
 
 ## [v1.3.1] - 2019-06-02
 Update to allow flexible configuration of the backlight.
