@@ -3011,6 +3011,12 @@
 <rectangle x1="16.0820125" y1="80.854546875" x2="16.56206875" y2="80.872328125" layer="26" rot="R180"/>
 <rectangle x1="17.71776875" y1="80.872328125" x2="17.98446875" y2="80.890103125" layer="26" rot="R180"/>
 <rectangle x1="16.20646875" y1="80.872328125" x2="16.40205" y2="80.890103125" layer="26" rot="R180"/>
+<text x="12.99718125" y="60.43421875" size="0.6096" layer="25" ratio="10">HEAT</text>
+<text x="12.99718125" y="50.12181875" size="0.6096" layer="25" ratio="10">COOL</text>
+<text x="8.836659375" y="47.383696875" size="0.6096" layer="25" ratio="10">GND</text>
+<text x="8.836659375" y="57.784996875" size="0.6096" layer="25" ratio="10">GND</text>
+<text x="17.691096875" y="57.873896875" size="0.6096" layer="25" ratio="10">VCC</text>
+<text x="17.6555375" y="47.525934375" size="0.6096" layer="25" ratio="10">VCC</text>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
