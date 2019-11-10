@@ -9,7 +9,8 @@ Before we proceed, a huge thank you to [Elco Jacobs](https://github.com/elcojaco
 ## Boards Provided
 Within this repository are:
 
-- Arduino shield supporting BrewPi Remix RevC as well as I2C
+- Arduino Uno shield supporting BrewPi Remix RevC as well as I2C
+- ESP8266 shield supporting those variants
 - Rotary Encoder breakout to facilitate connecting the rotary encoder with DuPont wires
 - Shield breakout providing all possible connections via screw terminals as well as DuPont connections, plus heat/cool LED indicators
 
@@ -17,6 +18,8 @@ Within this repository are:
 You may order boards for manufacture directly from these links:
 - Arduino Shield
   - [OshPark](https://oshpark.com/shared_projects/TOY7kiZg)
+- ESP8266 Shield
+  - [OshPark](https://oshpark.com/shared_projects/lKq8PfjV)
 - Breakout Board
   - [OshPark](https://oshpark.com/shared_projects/SfXfFd61)
 - Rotary Encoder Breakout
