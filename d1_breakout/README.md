@@ -1,16 +1,14 @@
-Breakout for Wemos D1 Mini
-=======================================================================
+Wemos D1 Mini BrewPi Breakout
+=============================
 Through-Hole Components with LCD & Dupont/RJ45 Connectors
------------------------------------------------------------------------
+---------------------------------------------------------
 
 A Wemos D1 Mini breakout board for BrewPi-derivative ESP8266 projects. No third-party level shifter is required.  Through-hole components only for ease of assembly.
 
-[Order from OshPark](https://oshpark.com/shared_projects/iOMfIxHx):
+[Order from Order from PCBs.io](https://PCBs.io/share/z5JLZ):
 
-- 2 layer board of 1.71 x 1.73 inches (43.5 x 43.8 mm).
-- Uploaded: November 9th, 2019 19:56.
-- Shared: November 9th, 2019 20:19
-- Total Price: $14.75 (3-boards)
+- 2 layer board of 2.9532 sq in (1.7120in x 1.7250in) / 1905.29 sq/mm (43.48mm x 43.82mm)
+- Total Price: $11.49 (4 boards)
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|
