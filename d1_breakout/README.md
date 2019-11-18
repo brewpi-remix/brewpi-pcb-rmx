@@ -19,7 +19,7 @@ A Wemos D1 Mini breakout board for BrewPi-derivative ESP8266 projects. No third-
 
 BOM (controller/shield only):
 
-- 1 x [PCB Shield](https://oshpark.com/shared_projects/yztU2gOK) (this project)
+- 1 x [PCB Shield](https://PCBs.io/share/z5JLZ) (this project)
 - 1 x [Wemos D1 Mini](https://www.aliexpress.com/item/32688079351.html?spm=a2g0o.productlist.0.0.2dcf3152g4UkxV&algo_pvid=be694029-b1d5-44b7-b733-20b8c0f6ba9a&algo_expid=be694029-b1d5-44b7-b733-20b8c0f6ba9a-0&btsid=3b4ec2af-8a5e-4c59-9e85-bb2bdb771ffd&ws_ab_test=searchweb0_0,searchweb201602_1,searchweb201603_52_) (U1)
 - 2 x Male 8-pin header (comes with controller)
 - 2 x Female 8-pin header (comes with controller)

@@ -17,13 +17,13 @@ Within this repository are:
 ## Boards Manufacture
 You may order boards for manufacture directly from these links:
 - Arduino Shield
-  - [OshPark](https://oshpark.com/shared_projects/TOY7kiZg)
+  - [From PCBs.io](https://PCBs.io/share/zdeBw)
 - ESP8266 Shield
-  - [OshPark](https://oshpark.com/shared_projects/lKq8PfjV)
+  - [From PCBs.io](https://PCBs.io/share/z5JLZ)
 - Breakout Board
-  - [OshPark](https://oshpark.com/shared_projects/SfXfFd61)
-- Rotary Encoder Breakout
-  - [OshPark](https://oshpark.com/shared_projects/IlNFHwwH)
+  - [From PCBs.io](https://PCBs.io/share/zvpLA)
+- Rotary Encoder Breakout Board
+  - [From PCBs.io](https://PCBs.io/share/zkPZ0)
 
 ## Modifying These Files
 If you would like to personalize these board designs, you may modify them with [Autodesk's EAGLE](https://www.autodesk.com/products/eagle/overview). EAGLE is a scriptable electronic design automation (EDA) application with schematic capture, printed circuit board (PCB) layout, auto-router and computer-aided manufacturing (CAM) features. EAGLE stands for Easily Applicable Graphical Layout Editor and is developed by CadSoft Computer GmbH. The company was acquired by Autodesk Inc. in 2016.  

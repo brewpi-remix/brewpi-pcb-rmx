@@ -39,7 +39,7 @@ Since this board is intended to support multiple configurations, some customizat
   * 1 ea 2-Position screw terminal
 
 ## Board Manufacture
-You may order this board for manufacture directly from [OshPark](https://oshpark.com/shared_projects/SfXfFd61).
+You may order this board for manufacture directly from [PCBs.io](https://PCBs.io/share/zvpLA).
 
 ## Modifying These Files
 If you would like to personalize these board designs, you may modify them with [Autodesk's EAGLE](https://www.autodesk.com/products/eagle/overview). EAGLE is a scriptable electronic design automation (EDA) application with schematic capture, printed circuit board (PCB) layout, auto-router and computer-aided manufacturing (CAM) features. EAGLE stands for Easily Applicable Graphical Layout Editor and is developed by CadSoft Computer GmbH. The company was acquired by Autodesk Inc. in 2016.  

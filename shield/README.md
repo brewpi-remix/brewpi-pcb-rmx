@@ -1,7 +1,7 @@
 # ![BrewPi Remix Logo](https://raw.githubusercontent.com/lbussy/brewpi-www-rmx/master/images/brewpi_logo.png)
 # BrewPi Arduino Uno Shield v1.3.1a (I2C/Parallel LCD)
 
-Arduino Uno shield for the [BrewPi Legacy Remix](https://www.brewpiremix.com) project.
+Arduino Uno shield for the [BrewPi Remix](https://www.brewpiremix.com) project.
 
 This is an new board design which incorporates an I2C LCD header in addition to the original parallel LCD header on the RevC.  The I2C display is supported in version 0.5.3 of BrewPi Legacy Remix Scripts, WWW and Tools, coupled with version 0.2.12 of the Arduino Firmware.
 
@@ -76,12 +76,12 @@ Other items you may want in order to complete your project:
   * [5v 2-Channel Relay Module](https://www.amazon.com/gp/product/B00TMFVVG6)
   * [Rotary Encoder](https://www.mouser.com/ProductDetail/490-CZ11BR1E15FD120C)  - You want a magnetic encoder, no pull-ups, and 20 detents
   * [Knob for Rotary Encoder](https://www.mouser.com/ProductDetail/Eagle-Plastic-Devices/450-4763?qs=sGAEpiMZZMuiwDVLTMm01an1wsjHLopM%252Bn33k8wqz%252Bs%3D)
-  * [Rotary Encoder Breakout Board](https://oshpark.com/shared_projects/1VFBXd7Y)
+  * [Rotary Encoder Breakout Board](https://PCBs.io/share/zkPZ0)
   * At least two [DS18B20 Waterproof Temperature Sensors](https://www.amazon.com/gp/product/B01JKVRVNI)
   * Assorted [Dupont Jumper Wires](https://www.amazon.com/Multicolored-Breadboard-Dupont-Jumper-Wires/dp/B073X7P6N2) (male-male, male-female, female-female)
 
 ## Board Manufacture
-You may order this board for manufacture directly from [OshPark](https://oshpark.com/shared_projects/TOY7kiZg).
+You may order this board for manufacture directly from [pcbs.io](https://PCBs.io/share/zdeBw).
 
 ## Modifying These Files
 If you would like to personalize these board designs, you may modify them with [Autodesk's EAGLE](https://www.autodesk.com/products/eagle/overview). EAGLE is a scriptable electronic design automation (EDA) application with schematic capture, printed circuit board (PCB) layout, auto-router and computer-aided manufacturing (CAM) features. EAGLE stands for Easily Applicable Graphical Layout Editor and is developed by CadSoft Computer GmbH. The company was acquired by Autodesk Inc. in 2016.  
