@@ -1,0 +1,20 @@
+Partlist exported from C:/Users/lee/OneDrive/Documents/GitHub/brewpi-pcb-rmx/D1 Breakout/D1 - TH LCD Dupont RJ45.sch at 11/30/2019 3:00 PM
+
+Part Value       Device               Package               Description                       MF MPN     OC_FARNELL OC_NEWARK PROD_ID   VALUE
+C1   1.0μF       CAP_CERAMIC_2.54     CAP_PTH-2.54                                                                                           
+C2   0.1μF       CAP_CERAMIC_2.54     CAP_PTH-2.54                                                                                           
+C3   1.0μF       CAP_CERAMIC_2.54     CAP_PTH-2.54                                                                                           
+C4   0.1μF       CAP_CERAMIC_2.54     CAP_PTH-2.54                                                                                           
+J1   RJ45-8X     RJ45-8X              RJ45-NO-SHIELD-NOLINE CORCOM Modular RJ Jacks No Shield    RJ45-8X unknown    16R6101                  
+Q1   2N7000      2N7000               TO-92                                                                                                  
+Q2   2N7000      2N7000               TO-92                                                                                                  
+R1   10k         10KOHM-HORIZ-1/4W-1% AXIAL-0.3             10kΩ resistor                                                     RES-12183 10k  
+R2   10k         10KOHM-HORIZ-1/4W-1% AXIAL-0.3             10kΩ resistor                                                     RES-12183 10k  
+R3   10k         10KOHM-HORIZ-1/4W-1% AXIAL-0.3             10kΩ resistor                                                     RES-12183 10k  
+R4   10k         10KOHM-HORIZ-1/4W-1% AXIAL-0.3             10kΩ resistor                                                     RES-12183 10k  
+R5   2.2k        10KOHM-HORIZ-1/4W-1% AXIAL-0.3             10kΩ resistor                                                     RES-12183 10k  
+SV1  RELAY       HDR-4                HDR-4_VERT            PIN HEADER                                                                       
+SV2  LCD         HDR-4                HDR-4_VERT            PIN HEADER                                                                       
+SV3  PWR         HDR-2                HDR-2_VERT                                                                                             
+U$1  WEMOSNOTEXT WEMOSNOTEXT          WEMOS_D1-NOTEXT                                                                                        
+X    PWR         W237-102             W237-102              WAGO SCREW CLAMP                     237-102 unknown    70K9898                  
