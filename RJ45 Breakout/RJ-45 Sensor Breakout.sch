@@ -561,20 +561,16 @@ LETTER landscape</description>
 </classes>
 <parts>
 <part name="J1" library="con-tycoelectronics" deviceset="RJ45" device="" technology="-8X"/>
-<part name="JP1" library="Donnie" deviceset="HDR-3" device=""/>
-<part name="JP2" library="Donnie" deviceset="HDR-3" device=""/>
-<part name="JP3" library="Donnie" deviceset="HDR-3" device=""/>
+<part name="JP1" library="Donnie" deviceset="HDR-3" device="" value=" "/>
+<part name="JP2" library="Donnie" deviceset="HDR-3" device="" value=" "/>
+<part name="JP3" library="Donnie" deviceset="HDR-3" device="" value="OneWire"/>
 <part name="JP4" library="Donnie" deviceset="HDR-2" device=""/>
-<part name="X1" library="con-wago-500" deviceset="W237-102" device=""/>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
+<part name="X1" library="con-wago-500" deviceset="W237-102" device="" value=" "/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device="" value=" "/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="172.72" y="76.2" size="1.778" layer="95" font="vector">6 - Door
-5 - Ground
-4 - OneWire
-3 - 5V</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="160.02" y="81.28" smashed="yes">
@@ -582,26 +578,23 @@ LETTER landscape</description>
 <attribute name="VALUE" x="157.48" y="68.072" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="G$1" x="40.64" y="147.32" smashed="yes">
-<attribute name="NAME" x="34.29" y="153.035" size="1.778" layer="95"/>
+<attribute name="NAME" x="39.37" y="155.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.29" y="139.7" size="1.778" layer="96"/>
 </instance>
 <instance part="JP2" gate="G$1" x="40.64" y="99.06" smashed="yes">
-<attribute name="NAME" x="34.29" y="104.775" size="1.778" layer="95"/>
+<attribute name="NAME" x="39.37" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.29" y="91.44" size="1.778" layer="96"/>
 </instance>
 <instance part="JP3" gate="G$1" x="40.64" y="50.8" smashed="yes">
-<attribute name="NAME" x="34.29" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="34.29" y="43.18" size="1.778" layer="96"/>
+<attribute name="NAME" x="39.37" y="59.182" size="1.778" layer="95"/>
 </instance>
 <instance part="JP4" gate="G$1" x="162.56" y="134.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="168.91" y="128.905" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="168.91" y="139.7" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="158.496" y="137.795" size="1.778" layer="95"/>
 </instance>
 <instance part="X1" gate="-1" x="137.16" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="137.16" y="100.711" size="1.778" layer="95"/>
 </instance>
 <instance part="X1" gate="-2" x="137.16" y="106.68" smashed="yes" rot="R180">
-<attribute name="VALUE" x="139.7" y="110.363" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="137.16" y="105.791" size="1.778" layer="95"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="-17.78" y="0" smashed="yes"/>
@@ -709,10 +702,6 @@ LETTER landscape</description>
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

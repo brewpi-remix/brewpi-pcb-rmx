@@ -1,0 +1,16 @@
+Partlist
+
+Exported from RJ-45 Sensor Breakout.sch at 11/30/2019 4:22 PM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device     Package               Library             Sheet
+
+J1       RJ45-8X        RJ45-8X    RJ45-NO-SHIELD-NOLINE con-tycoelectronics 1
+JP1                     HDR-3      HDR-3_VERT            Donnie              1
+JP2                     HDR-3      HDR-3_VERT            Donnie              1
+JP3                     HDR-3      HDR-3_VERT            Donnie              1
+JP4      HDR-2          HDR-2      HDR-2_VERT            Donnie              1
+X1                      W237-102   W237-102              con-wago-500        1

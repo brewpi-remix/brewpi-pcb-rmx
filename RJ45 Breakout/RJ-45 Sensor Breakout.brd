@@ -170,14 +170,12 @@
 <text x="3.601071875" y="32.1068" size="0.8128" layer="25" font="vector" rot="R270" align="center-left">GND</text>
 <text x="23.495" y="22.3" size="0.8128" layer="25" font="vector" rot="R90" align="center-right">DOOR</text>
 <text x="8.6958875" y="32.1068" size="0.8128" layer="25" font="vector" rot="R270" align="center-left">DATA</text>
-<text x="30.5" y="10.8" size="1.016" layer="26" font="vector" rot="MR0">RJ-45 Pinout:
+<text x="30.4" y="13.1" size="1.016" layer="26" font="vector" rot="MR0">RJ-45 Pinout:
 3 - 5V
 4 - OneWire
 5 - Ground
 6 - Door</text>
 <text x="6.1040875" y="18.5968" size="0.8128" layer="25" font="vector" rot="R270" align="center-left">5V</text>
-<text x="30.2" y="22.3" size="1.016" layer="26" font="vector" rot="MR0">ESP8266 BrewPi 
-RJ-45 Breakout Board v1.0</text>
 <text x="28.48" y="29.71" size="0.8128" layer="25" font="vector" rot="R90" align="center-right">GND</text>
 <text x="23.5537" y="29.672053125" size="0.8128" layer="25" font="vector" rot="R90" align="center-right">DOOR</text>
 <text x="3.601071875" y="25.3568" size="0.8128" layer="25" font="vector" rot="R270" align="center-left">GND</text>
@@ -186,6 +184,9 @@ RJ-45 Breakout Board v1.0</text>
 <text x="3.591071875" y="18.603003125" size="0.8128" layer="25" font="vector" rot="R270" align="center-left">GND</text>
 <text x="6.1040875" y="25.3568" size="0.8128" layer="25" font="vector" rot="R270" align="center-left">5V</text>
 <text x="8.7058875" y="18.598575" size="0.8128" layer="25" font="vector" rot="R270" align="center-left">DATA</text>
+<text x="30.4" y="27" size="1.016" layer="26" font="vector" rot="MR0">ESP8266 BrewPi 
+RJ-45 Breakout Board
+v1.0</text>
 </plain>
 <libraries>
 <library name="con-tycoelectronics">
@@ -518,22 +519,16 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <element name="U$1" library="holes" package="3,0" value="" x="28.575" y="3.175" smashed="yes"/>
 <element name="U$2" library="holes" package="3,0" value="" x="3.175" y="3.175" smashed="yes"/>
 <element name="U$3" library="holes" package="3,0" value="" x="15.875" y="33.655" smashed="yes"/>
-<element name="JP1" library="Donnie" package="HDR-3_VERT" value="" x="3.581909375" y="20.342859375" smashed="yes">
-<attribute name="VALUE" x="-0.228090625" y="17.167859375" size="1.27" layer="27"/>
-</element>
-<element name="JP2" library="Donnie" package="HDR-3_VERT" value="" x="3.581909375" y="27.080715625" smashed="yes">
-<attribute name="VALUE" x="-0.228090625" y="23.905715625" size="1.27" layer="27"/>
-</element>
-<element name="JP3" library="Donnie" package="HDR-3_VERT" value="" x="3.581909375" y="33.818571875" smashed="yes">
-<attribute name="VALUE" x="-0.228090625" y="30.643571875" size="1.27" layer="27"/>
-</element>
+<element name="JP1" library="Donnie" package="HDR-3_VERT" value=" " x="3.581909375" y="20.342859375" smashed="yes"/>
+<element name="JP2" library="Donnie" package="HDR-3_VERT" value=" " x="3.581909375" y="27.080715625" smashed="yes"/>
+<element name="JP3" library="Donnie" package="HDR-3_VERT" value="OneWire" x="3.581909375" y="33.818571875" smashed="yes"/>
 <element name="JP4" library="Donnie" package="HDR-2_VERT" value="HDR-2" x="23.5222" y="23.9200125" smashed="yes"/>
-<element name="X1" library="con-wago-500" package="W237-102" value="" x="26.035" y="33.655" smashed="yes" rot="R180">
+<element name="X1" library="con-wago-500" package="W237-102" value=" " x="26.035" y="33.655" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="26.035" y="33.655" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="237-102" x="26.035" y="33.655" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="26.0612" y="29.6288" size="0.8128" layer="25" font="vector" ratio="10" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="26.035" y="33.655" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="26.035" y="33.655" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="31.075" y="41.275" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 </elements>
 <signals>
