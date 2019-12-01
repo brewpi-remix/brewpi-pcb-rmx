@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -71,7 +71,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -160,25 +160,6 @@
 <libraries>
 <library name="Donnie">
 <packages>
-<package name="SWITCH-ALPS_ALPS_EC12E_SW">
-<description>ALPS rotary encoder&lt;br&gt;
-EC12E series with push-on switch</description>
-<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
-<wire x1="-6.2" y1="-6.6" x2="6.2" y2="-6.6" width="0.127" layer="21"/>
-<wire x1="6.2" y1="-6.6" x2="6.2" y2="6.6" width="0.127" layer="21"/>
-<wire x1="6.2" y1="6.6" x2="-6.2" y2="6.6" width="0.127" layer="21"/>
-<wire x1="-6.2" y1="6.6" x2="-6.2" y2="-6.6" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="1.5" x2="2.6" y2="1.5" width="0.127" layer="21"/>
-<pad name="A" x="-2.5" y="-7.5" drill="1" shape="square"/>
-<pad name="B" x="2.5" y="-7.5" drill="1" shape="square"/>
-<pad name="C" x="0" y="-7.5" drill="1" shape="square"/>
-<pad name="D" x="-2.5" y="7" drill="1" shape="square"/>
-<pad name="E" x="2.5" y="7" drill="1" shape="square"/>
-<pad name="1" x="-6.1" y="0" drill="2.2" shape="square"/>
-<pad name="2" x="6.1" y="0" drill="2.2" shape="square"/>
-<text x="-2.5" y="8.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="3.5" y="-9" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
-</package>
 <package name="HDR-4_VERT">
 <wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
@@ -213,44 +194,6 @@ EC12E series with push-on switch</description>
 </package>
 </packages>
 <symbols>
-<symbol name="SWITCH-ALPS_ENCODER">
-<circle x="0" y="0" radius="0.5679" width="0" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="4.1275" width="0.3048" layer="94"/>
-<wire x1="-2.54" y1="4.1275" x2="-0.9525" y2="1.905" width="0.3048" layer="94"/>
-<wire x1="-1.905" y1="1.905" x2="-2.54" y2="1.905" width="0.3048" layer="94"/>
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="0" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="4.1275" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="4.1275" x2="4.1275" y2="1.905" width="0.3048" layer="94"/>
-<wire x1="3.175" y1="1.905" x2="2.54" y2="1.905" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="0" width="0.3048" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<pin name="A" x="-2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="B" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="-3.81" y="0" size="1.27" layer="95" rot="R90">&gt;PART</text>
-<text x="6.35" y="0" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
-</symbol>
-<symbol name="SWITCH-ALPS_SWITCH">
-<wire x1="-2.54" y1="0" x2="-1.5875" y2="0" width="0.3048" layer="94"/>
-<wire x1="-1.5875" y1="0" x2="0.635" y2="1.5875" width="0.3048" layer="94"/>
-<wire x1="0.635" y1="0.635" x2="0.635" y2="0" width="0.3048" layer="94"/>
-<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.3048" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="3.81" width="0.127" layer="94"/>
-<wire x1="-0.635" y1="3.81" x2="0.635" y2="3.81" width="0.127" layer="94"/>
-<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.4925" width="0.127" layer="94"/>
-<wire x1="0.635" y1="3.81" x2="0.635" y2="3.4925" width="0.127" layer="94"/>
-<pin name="D" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="E" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<text x="-5.08" y="5.08" size="1.27" layer="95">&gt;PART</text>
-<text x="-5.08" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="SWITCH-ALPS_HOUSING">
-<wire x1="0" y1="0" x2="0.9525" y2="0" width="0.254" layer="94"/>
-<wire x1="1.5875" y1="0" x2="2.2225" y2="0" width="0.254" layer="94"/>
-<wire x1="2.8575" y1="0" x2="3.4925" y2="0" width="0.254" layer="94"/>
-<wire x1="4.1275" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<pin name="1" x="0" y="0" visible="pad" length="point" direction="sup"/>
-</symbol>
 <symbol name="HDR-4">
 <wire x1="3.81" y1="-2.54" x2="-1.27" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
@@ -269,34 +212,6 @@ EC12E series with push-on switch</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SWITCH-ALPS_EC12E_SW" prefix="SW">
-<description>ALPS rotary Encoder EC12E series with switch</description>
-<gates>
-<gate name="G$1" symbol="SWITCH-ALPS_ENCODER" x="-10.16" y="-2.54" addlevel="always"/>
-<gate name="G$2" symbol="SWITCH-ALPS_SWITCH" x="10.16" y="5.08" addlevel="always"/>
-<gate name="G$3" symbol="SWITCH-ALPS_HOUSING" x="10.16" y="-5.08" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="SWITCH-ALPS_ALPS_EC12E_SW">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$2" pin="D" pad="D"/>
-<connect gate="G$2" pin="E" pad="E"/>
-<connect gate="G$3" pin="1" pad="1 2" route="any"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="EC12E2424407" constant="no"/>
-<attribute name="OC_FARNELL" value="1520813" constant="no"/>
-<attribute name="OC_NEWARK" value="74M1068" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="HDR-4" prefix="P">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
@@ -318,15 +233,15 @@ EC12E series with push-on switch</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="frames" urn="urn:adsk.eagle:library:229">
+<library name="frames">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="LETTER_L" urn="urn:adsk.eagle:symbol:13870/1" library_version="1">
+<symbol name="LETTER_L">
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="12" rows="17" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 </symbol>
-<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
+<symbol name="DOCFIELD">
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
@@ -357,7 +272,7 @@ EC12E series with push-on switch</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LETTER_L" urn="urn:adsk.eagle:component:13920/1" prefix="FRAME" uservalue="yes" library_version="1">
+<deviceset name="LETTER_L" prefix="FRAME" uservalue="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 LETTER landscape</description>
 <gates>
@@ -366,6 +281,96 @@ LETTER landscape</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="LBussy">
+<packages>
+<package name="ACZ11BRXE">
+<pad name="S1" x="-2.5" y="7" drill="1.2" shape="square"/>
+<pad name="S2" x="2.5" y="7" drill="1.2" shape="square"/>
+<pad name="G1" x="-4.7" y="0" drill="2.2" shape="square"/>
+<pad name="G2" x="4.7" y="0" drill="2.2" shape="square"/>
+<pad name="A" x="-2.5" y="-7.5" drill="1.2" shape="square"/>
+<pad name="C" x="-0.03" y="-7.5" drill="1.2" shape="square"/>
+<pad name="B" x="2.5" y="-7.5" drill="1.2" shape="square"/>
+<wire x1="-5.85" y1="-6.5" x2="5.85" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="6.5" x2="5.85" y2="6.5" width="0.127" layer="51"/>
+<wire x1="5.85" y1="6.5" x2="5.85" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="6.5" x2="-5.85" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="6.5" x2="5.85" y2="6.5" width="0.127" layer="21"/>
+<wire x1="5.85" y1="6.5" x2="5.85" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="-6.5" x2="-1.15" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="-6.5" x2="1.15" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-6.5" x2="5.85" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="6.5" x2="-5.85" y2="-6.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.75" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="-6.5" x2="-1.15" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="-5.5" x2="1.15" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-5.5" x2="1.15" y2="-6.5" width="0.127" layer="21"/>
+<text x="-3.4" y="8.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.2" y="-9.1" size="1.27" layer="25" font="vector" align="top-left">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ACZ11BRXE">
+<pin name="G1" x="-15.24" y="2.54" length="short"/>
+<pin name="G2" x="15.24" y="2.54" length="short" rot="R180"/>
+<wire x1="-2.54" y1="7.62" x2="-1.5875" y2="7.62" width="0.3048" layer="94"/>
+<wire x1="-1.5875" y1="7.62" x2="0.635" y2="9.2075" width="0.3048" layer="94"/>
+<wire x1="0.635" y1="8.255" x2="0.635" y2="7.62" width="0.3048" layer="94"/>
+<wire x1="0.635" y1="7.62" x2="2.54" y2="7.62" width="0.3048" layer="94"/>
+<wire x1="0" y1="8.89" x2="0" y2="11.43" width="0.127" layer="94"/>
+<wire x1="-0.635" y1="11.43" x2="0.635" y2="11.43" width="0.127" layer="94"/>
+<wire x1="-0.635" y1="11.43" x2="-0.635" y2="11.1125" width="0.127" layer="94"/>
+<wire x1="0.635" y1="11.43" x2="0.635" y2="11.1125" width="0.127" layer="94"/>
+<pin name="S2" x="15.24" y="7.62" length="short" swaplevel="1" rot="R180"/>
+<pin name="S1" x="-15.24" y="7.62" length="short" swaplevel="1"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="-7.62" x2="-1.5875" y2="-7.62" width="0.3048" layer="94"/>
+<wire x1="-1.5875" y1="-7.62" x2="0.635" y2="-6.0325" width="0.3048" layer="94"/>
+<wire x1="0.635" y1="-6.985" x2="0.635" y2="-7.62" width="0.3048" layer="94"/>
+<wire x1="0.635" y1="-7.62" x2="2.54" y2="-7.62" width="0.3048" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.5875" y2="-2.54" width="0.3048" layer="94"/>
+<wire x1="-1.5875" y1="-2.54" x2="0.635" y2="-0.9525" width="0.3048" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="-2.54" width="0.3048" layer="94"/>
+<wire x1="0.635" y1="-2.54" x2="2.54" y2="-2.54" width="0.3048" layer="94"/>
+<pin name="ROTA" x="-15.24" y="-7.62" length="short"/>
+<pin name="ROTB" x="-15.24" y="-2.54" length="short"/>
+<pin name="GND" x="15.24" y="-5.08" length="short" rot="R180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="15.24" size="2.1844" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="-12.7" size="2.1844" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ACZ11" prefix="SW" uservalue="yes">
+<description>&lt;p&gt;&lt;b&gt;&lt;a href="https://www.mouser.com/datasheet/2/670/acz11-1308373.pdf"&gt;ACZ11:&lt;/a&gt;&lt;/b&gt; Mechanical Incremental Encoder</description>
+<gates>
+<gate name="G$1" symbol="ACZ11BRXE" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="VERTICAL" package="ACZ11BRXE">
+<connects>
+<connect gate="G$1" pin="G1" pad="G1"/>
+<connect gate="G$1" pin="G2" pad="G2"/>
+<connect gate="G$1" pin="GND" pad="C"/>
+<connect gate="G$1" pin="ROTA" pad="A"/>
+<connect gate="G$1" pin="ROTB" pad="B"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -384,28 +389,28 @@ LETTER landscape</description>
 </class>
 </classes>
 <parts>
-<part name="SW1" library="Donnie" deviceset="SWITCH-ALPS_EC12E_SW" device=""/>
-<part name="P1" library="Donnie" deviceset="HDR-4" device=""/>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
+<part name="FRAME1" library="frames" deviceset="LETTER_L" device="" value=" "/>
+<part name="SW1" library="LBussy" deviceset="ACZ11" device="VERTICAL" value=" "/>
+<part name="H1" library="Donnie" deviceset="HDR-4" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="SW1" gate="G$1" x="167.64" y="86.36" smashed="yes" rot="R90"/>
-<instance part="SW1" gate="G$2" x="165.1" y="99.06" smashed="yes" rot="MR0">
-<attribute name="PART" x="170.18" y="104.14" size="2.1844" layer="95" font="vector" rot="MR0"/>
-</instance>
-<instance part="SW1" gate="G$3" x="165.1" y="93.98" smashed="yes"/>
-<instance part="P1" gate="1" x="73.66" y="91.44" smashed="yes">
-<attribute name="NAME" x="72.39" y="102.362" size="2.1844" layer="95" font="vector"/>
-</instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="165.1" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="SW1" gate="G$1" x="162.56" y="96.52" smashed="yes">
+<attribute name="NAME" x="149.86" y="111.76" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="149.86" y="83.82" size="2.1844" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="H1" gate="1" x="76.2" y="96.52" smashed="yes">
+<attribute name="VALUE" x="74.93" y="91.44" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="74.93" y="107.442" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -413,87 +418,61 @@ LETTER landscape</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="SW1" gate="G$3" pin="1"/>
-<wire x1="165.1" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
-<label x="160.02" y="93.98" size="2.1844" layer="95" font="vector" align="bottom-right"/>
-<pinref part="SW1" gate="G$1" pin="C"/>
-<wire x1="172.72" y1="93.98" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="93.98" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
-<junction x="165.1" y="93.98"/>
-<pinref part="SW1" gate="G$2" pin="E"/>
-<wire x1="170.18" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="99.06" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
-<junction x="172.72" y="93.98"/>
-<pinref part="P1" gate="1" pin="2"/>
-<wire x1="81.28" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<label x="81.28" y="93.98" size="2.1844" layer="95" font="vector"/>
-<wire x1="88.9" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="G2"/>
+<label x="177.8" y="99.06" size="1.778" layer="95"/>
+<pinref part="SW1" gate="G$1" pin="S2"/>
+<wire x1="177.8" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="104.14" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="GND"/>
+<wire x1="182.88" y1="99.06" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<junction x="182.88" y="99.06"/>
+<wire x1="182.88" y1="91.44" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+<junction x="182.88" y="91.44"/>
+<pinref part="H1" gate="1" pin="2"/>
+<pinref part="SW1" gate="G$1" pin="G1"/>
+<wire x1="83.82" y1="99.06" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
+<label x="83.82" y="99.06" size="1.778" layer="95" font="vector"/>
+<wire x1="139.7" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="83.82" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
+<junction x="139.7" y="99.06"/>
 </segment>
 </net>
 <net name="ROTA" class="0">
 <segment>
-<pinref part="P1" gate="1" pin="4"/>
-<wire x1="81.28" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
-<label x="81.28" y="99.06" size="2.1844" layer="95" font="vector"/>
-<wire x1="88.9" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="99.06" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="A"/>
-<wire x1="160.02" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="160.02" y="83.82" size="2.1844" layer="95" font="vector" align="bottom-right"/>
-<wire x1="144.78" y1="86.36" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="H1" gate="1" pin="4"/>
+<wire x1="83.82" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="104.14" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="ROTA"/>
+<wire x1="142.24" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
+<label x="83.82" y="104.14" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="PB" class="0">
 <segment>
-<pinref part="P1" gate="1" pin="3"/>
-<wire x1="81.28" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
-<label x="81.28" y="96.52" size="2.1844" layer="95" font="vector"/>
-<wire x1="88.9" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="96.52" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$2" pin="D"/>
-<wire x1="160.02" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
-<label x="160.02" y="99.06" size="2.1844" layer="95" align="bottom-right"/>
-<wire x1="147.32" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="S1"/>
+<wire x1="147.32" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="104.14" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="H1" gate="1" pin="3"/>
+<wire x1="144.78" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
+<label x="83.82" y="101.6" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="ROTB" class="0">
 <segment>
-<pinref part="P1" gate="1" pin="1"/>
-<wire x1="81.28" y1="91.44" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
-<label x="81.28" y="91.44" size="2.1844" layer="95" font="vector"/>
-<wire x1="88.9" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="91.44" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="B"/>
-<wire x1="160.02" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
-<label x="160.02" y="88.9" size="2.1844" layer="95" font="vector" align="bottom-right"/>
-<wire x1="147.32" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="H1" gate="1" pin="1"/>
+<wire x1="83.82" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="96.52" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="ROTB"/>
+<wire x1="144.78" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<label x="83.82" y="96.52" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="102,1,116.84,48.26,1,GND,,,,"/>
-</errors>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="9.0" severity="warning">
-Since Version 9.0, EAGLE supports the align property for labels. 
-Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
-for full support of labels. 
-</note>
-</compatibility>
 </eagle>
