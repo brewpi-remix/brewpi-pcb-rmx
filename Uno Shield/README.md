@@ -1,9 +1,13 @@
 # ![BrewPi Remix Logo](https://raw.githubusercontent.com/lbussy/brewpi-www-rmx/master/images/brewpi_logo.png)
+
 # BrewPi Arduino Uno Shield v1.3.1a (I2C/Parallel LCD)
 
-Arduino Uno shield for the [BrewPi Remix](https://www.brewpiremix.com) project.
+Arduino Uno shield for the [BrewPi Remix](https://www.brewpiremix.com) project. This is an new board design which incorporates an I2C LCD header in addition to the original parallel LCD header on the RevC.  The I2C display is supported in version 0.5.3 of BrewPi Legacy Remix Scripts, WWW and Tools, coupled with version 0.2.12 of the Arduino Firmware.
 
-This is an new board design which incorporates an I2C LCD header in addition to the original parallel LCD header on the RevC.  The I2C display is supported in version 0.5.3 of BrewPi Legacy Remix Scripts, WWW and Tools, coupled with version 0.2.12 of the Arduino Firmware.
+[Order from PCBs.io](https://PCBs.io/share/zdeBw):
+
+- 2 Layer Board - 5.1164 sq in (2.1200in x 2.4134in) / 3300.9 sq/mm (53.85mm x 61.3mm)
+- $19.39 per set of 4 ($3.79 per sq in)
 
 ![Board Top](Top.png) ![Board Top](Bottom.png)
 
@@ -81,7 +85,12 @@ Other items you may want in order to complete your project:
   * Assorted [Dupont Jumper Wires](https://www.amazon.com/Multicolored-Breadboard-Dupont-Jumper-Wires/dp/B073X7P6N2) (male-male, male-female, female-female)
 
 ## Board Manufacture
+
 You may order this board for manufacture directly from [pcbs.io](https://PCBs.io/share/zdeBw).
+
+## 3D-Printed Case
+
+See [this case](https://www.thingiverse.com/thing:3416312) from @gromitdj for a case you can print.
 
 ## Modifying These Files
 If you would like to personalize these board designs, you may modify them with [Autodesk's EAGLE](https://www.autodesk.com/products/eagle/overview). EAGLE is a scriptable electronic design automation (EDA) application with schematic capture, printed circuit board (PCB) layout, auto-router and computer-aided manufacturing (CAM) features. EAGLE stands for Easily Applicable Graphical Layout Editor and is developed by CadSoft Computer GmbH. The company was acquired by Autodesk Inc. in 2016.  

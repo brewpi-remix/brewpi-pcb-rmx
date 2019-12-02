@@ -1,9 +1,13 @@
 # ![BrewPi Remix Logo](https://raw.githubusercontent.com/lbussy/brewpi-www-rmx/master/images/brewpi_logo.png)
+
 # BrewPi Breakout v1.3.1a
 
-Breakout Board for the [BrewPi Legacy Remix](https://www.brewpiremix.com) project.
+Breakout Board for the [BrewPi Legacy Remix](https://www.brewpiremix.com) project. This optional breakout board is intended to be connected to the Arduino Shield v1.3.1a via a straight-through RJ45 terminated cable (i.e. an Ethernet cable.)  It allows the Arduino to be located remotely from the fermentation chamber.
 
-This optional breakout board is intended to be connected to the Arduino Shield v1.3.1a via a straight-through RJ45 terminated cable (i.e. an Ethernet cable.)  It allows the Arduino to be located remotely from the fermentation chamber.
+[Order from PCBs.io](https://PCBs.io/share/zvpLA):
+
+- 2 Layer Board - 2.3751 sq in (1.2130in x 1.9580in) / 1532.32 sq/mm (30.81mm x 49.73mm)
+- $9.38 per set of 4 ($3.95 per sq in)
 
 ![Board Top](Top.png) ![Board Top](Bottom.png)
 

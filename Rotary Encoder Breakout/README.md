@@ -2,10 +2,13 @@
 
 # Rotary Encoder Breakout v1.0
 
+A breakout board to provide pins for connecting the rotary encoder to the BrewPi controller.  Designed for CUI, [ACZ11BR1E-15FD1-20C](https://www.mouser.com/ProductDetail/490-CZ11BR1E15FD120C) or similar footprint.  Despite the picture linked on that page, you want a vertical mounting encoder (and that one really is.)  You don't really *need* this, but it will surely make it easier to connect things with Dupont wires.
+
+
+[Order from PCBs.io](https://PCBs.io/share/rJPlG):
+
 - 2 Layer Board - 0.7087 sq in (0.7038in x 1.0069in) / 457.22 sq/mm (17.88mm x 25.58mm)
 - $2.83 per set of 4 ($4.00 per sq in)
-
-A breakout board to provide pins for connecting the rotary encoder to the BrewPi controller.  Designed for CUI, [ACZ11BR1E-15FD1-20C](https://www.mouser.com/ProductDetail/490-CZ11BR1E15FD120C) or similar footprint.  Despite the picture linked on that page, you want a vertical mounting encoder (and that one really is.)  You don't really *need* this, but it will surely make it easier to connect things with Dupont wires.
 
 ![Board Top](Top.png) ![Board Top](Bottom.png)
 

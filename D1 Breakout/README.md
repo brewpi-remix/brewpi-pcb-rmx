@@ -1,14 +1,13 @@
-Wemos D1 Mini BrewPi Breakout
-=============================
-Through-Hole Components with LCD & Dupont/RJ45 Connectors
----------------------------------------------------------
+# ![BrewPi Remix Logo](https://raw.githubusercontent.com/lbussy/brewpi-www-rmx/master/images/brewpi_logo.png)
+
+# Wemos D1 Mini BrewPi Breakout
 
 A Wemos D1 Mini breakout board for BrewPi-derivative ESP8266 projects. No third-party level shifter is required.  Through-hole components only for ease of assembly.
 
 [Order from PCBs.io](https://PCBs.io/share/z5JLZ):
 
-- 2 layer board of 3.0111 sq in (1.7382in x 1.7323in) / 1942.64 sq/mm (44.15mm x 44mm)
-- Total Price: $11.71 (4 boards)
+- 2 Layer Board - 0.7087 sq in (0.7038in x 1.0069in) / 457.22 sq/mm (17.88mm x 25.58mm)
+- $2.83 per set of 4 ($4.00 per sq in)
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|
@@ -17,7 +16,7 @@ A Wemos D1 Mini breakout board for BrewPi-derivative ESP8266 projects. No third-
 [top]: Top.png "Board Top"
 [bot]: Bottom.png "Board Bottom"
 
-BOM (controller/shield only):
+## BOM (controller/shield only):
 
 - 1 x [PCB Shield](https://PCBs.io/share/z5JLZ) (this project)
 - 1 x [Wemos D1 Mini](https://www.aliexpress.com/item/32688079351.html?spm=a2g0o.productlist.0.0.2dcf3152g4UkxV&algo_pvid=be694029-b1d5-44b7-b733-20b8c0f6ba9a&algo_expid=be694029-b1d5-44b7-b733-20b8c0f6ba9a-0&btsid=3b4ec2af-8a5e-4c59-9e85-bb2bdb771ffd&ws_ab_test=searchweb0_0,searchweb201602_1,searchweb201603_52_) (U1)
@@ -32,3 +31,17 @@ BOM (controller/shield only):
 - 1 x [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) (J1)
 - 2 x [4-pin DuPont Header](https://www.aliexpress.com/item/32670112443.html?spm=a2g0o.productlist.0.0.b4045bcffb2Q4C&algo_pvid=e9508115-148b-4d72-a7a3-4e45d189d5c7&algo_expid=e9508115-148b-4d72-a7a3-4e45d189d5c7-12&btsid=35f3875d-d1f0-4b92-9a59-406a3faaa4ef&ws_ab_test=searchweb0_0,searchweb201602_1,searchweb201603_52) (RELAY, LCD)
 - 1 x [2-pin DuPont Header](https://www.aliexpress.com/item/32670112443.html?spm=a2g0o.productlist.0.0.b4045bcffb2Q4C&algo_pvid=e9508115-148b-4d72-a7a3-4e45d189d5c7&algo_expid=e9508115-148b-4d72-a7a3-4e45d189d5c7-12&btsid=35f3875d-d1f0-4b92-9a59-406a3faaa4ef&ws_ab_test=searchweb0_0,searchweb201602_1,searchweb201603_52) (PWR)
+
+## Board Manufacture
+
+You may order this board for manufacture directly from [PCBs.io](https://PCBs.io/share/z5JLZ).
+
+## 3D-Printed Case
+
+See [this case](https://www.thingiverse.com/thing:2874176) from Thorrak for a case you can print.
+
+## Modifying These Files
+
+If you would like to personalize these board designs, you may modify them with [Autodesk's EAGLE](https://www.autodesk.com/products/eagle/overview). EAGLE is a scriptable electronic design automation (EDA) application with schematic capture, printed circuit board (PCB) layout, auto-router and computer-aided manufacturing (CAM) features. EAGLE stands for Easily Applicable Graphical Layout Editor and is developed by CadSoft Computer GmbH. The company was acquired by Autodesk Inc. in 2016.  
+
+The program supports Windows, Linux, and Mac OS X.  EAGLE is available in a [free version](https://www.autodesk.com/products/eagle/free-download), as well as a [subscription-based version with more features](https://www.autodesk.com/products/eagle/compare).
