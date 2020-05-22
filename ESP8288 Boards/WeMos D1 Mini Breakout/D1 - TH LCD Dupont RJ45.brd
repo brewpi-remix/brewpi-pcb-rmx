@@ -170,7 +170,7 @@
 <text x="41.515" y="41.28" size="0.8128" layer="25" font="vector" ratio="10" align="center-left">5V</text>
 <text x="31.15" y="41.38" size="0.8128" layer="25" font="vector" ratio="10" align="center-right">GND</text>
 <text x="43.383" y="34.974" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0">BrewPi D1 Mini
-Breakout Board v1.0
+Breakout Board v1.3.1b
 @LBussy on HBT</text>
 <text x="15.073" y="27.332" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0">Wemos D1:
 D0 - Heat 
@@ -17752,8 +17752,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="35.65065" y1="16.691459375" x2="33.761459375" y2="16.691459375" width="1.27" layer="16"/>
 <wire x1="33.761459375" y1="16.691459375" x2="33.119365625" y2="16.049365625" width="1.27" layer="16"/>
 <wire x1="33.119365625" y1="16.049365625" x2="33.119365625" y2="12.7449" width="1.27" layer="16"/>
-<wire x1="35.65065" y1="16.691459375" x2="37.019190625" y2="18.06" width="1.27" layer="1"/>
-<wire x1="37.019190625" y1="18.06" x2="41.38" y2="18.06" width="1.27" layer="1"/>
+<wire x1="35.65065" y1="16.691459375" x2="37.45976875" y2="16.691459375" width="1.27" layer="1"/>
+<wire x1="38.828309375" y1="18.06" x2="41.38" y2="18.06" width="1.27" layer="1"/>
+<wire x1="37.45976875" y1="16.691459375" x2="38.828309375" y2="18.06" width="1.27" layer="1"/>
 </signal>
 <signal name="3VSCL">
 <contactref element="R3" pad="P$2"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -185,7 +185,7 @@
 <text x="6.1040875" y="25.3568" size="0.8128" layer="25" font="vector" rot="R270" align="center-left">5V</text>
 <text x="8.7058875" y="18.598575" size="0.8128" layer="25" font="vector" rot="R270" align="center-left">DATA</text>
 <text x="30.45588125" y="28.2192" size="1.016" layer="26" font="vector" rot="MR0">RJ-45 Breakout Board
-v1.0</text>
+v1.3.1b</text>
 <rectangle x1="21.841465625" y1="17.411696875" x2="21.866865625" y2="17.416778125" layer="22" rot="R180"/>
 <rectangle x1="21.816065625" y1="17.416778125" x2="21.866865625" y2="17.421853125" layer="22" rot="R180"/>
 <rectangle x1="21.785584375" y1="17.42185625" x2="21.866865625" y2="17.4269375" layer="22" rot="R180"/>
