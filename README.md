@@ -9,11 +9,12 @@ This repository contains the Eagle files for printed circuit boards supporting [
 ## Boards Provided
 Within this repository are:
 
+- ESP8266 Boards (Supporting @Thorrak's [ESP8266 BrewPi Controllers](https://github.com/thorrak/brewpi-esp8266))
+  - Wemos D1 breakout supporting BrewPi Remix or Fermentrack using @Thorrak's [ESP8266 firmware](https://github.com/thorrak/brewpi-esp8266)
+  - RJ-45 breakout board, supporting ESP8266 controllers connected via straight-throgh RJ-45 (i,e, Ethernet) cables
 - Arduino Uno shield supporting BrewPi Remix RevC as well as I2C
-- Wemos D1 breakout supporting BrewPi Remix or Fermentrack using @Thorrak's [ESP8266 firmware](https://github.com/thorrak/brewpi-esp8266)
-- Rotary Encoder breakout to facilitate connecting the rotary encoder with DuPont wires
-- Breakout board, mostly for bench work, providing all possible connections via screw terminals as well as DuPont connections, plus heat/cool LED indicators
-- RJ-45 breakout board, supporting BrewPi Remix or Fermentrack controllers connected via straight-throgh RJ-45 (i,e, Ethernet) cables
+  - Rotary Encoder breakout to facilitate connecting a rotary encoder with DuPont wires
+  - Breakout board, mostly for bench work, providing all possible connections via screw terminals as well as DuPont connections, plus heat/cool LED indicators
 
 ## Boards Manufacture
 You may order boards for manufacture directly from these links:
