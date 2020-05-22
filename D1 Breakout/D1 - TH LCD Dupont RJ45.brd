@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -181,10 +181,10 @@ D5 - Cool
 D6 - OneWire
 D7 - Door</text>
 <text x="12.8" y="15" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0">RJ45:
-3 - Door
-4 - Ground
-5 - OneWire
-6 - 5V</text>
+3 - 5V
+4 - OneWire
+5 - Ground
+6 - Door</text>
 <text x="5.5" y="22.4" size="0.8128" layer="25" font="vector" align="center-left">GND</text>
 <text x="5.5" y="25" size="0.8128" layer="25" font="vector" align="center-left">5V</text>
 <text x="5.5" y="27.5" size="0.8128" layer="25" font="vector" align="center-left">SDA</text>
