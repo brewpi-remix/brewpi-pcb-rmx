@@ -59,9 +59,9 @@ Since this board is intended to support both the RevC as well as the I2C firmwar
     * 2 ea [220Ω Axial Resistor 1/4W](https://www.mouser.com/ProductDetail/?qs=KVzGhl%2FcVV1aGF8Vc%2F%252BvDg%3D%3D) (R9, 10)
     * 1 ea [2kΩ Axial Resistor 1/4W](https://www.mouser.com/ProductDetail/?qs=iPPgFPFs9PM72iUDc08rBg%3D%3D) (R7)
     * 1 ea [4.7kΩ Axial Resistor 1/4W](https://www.mouser.com/ProductDetail/?qs=WbbykRgge7o4TK6QsdXS5A%3D%3D) (R6)
-    * 1 ea [2N3906 PNP Transistor](https://www.mouser.com/ProductDetail/?qs=iN0KuJO79Kbn9o7a2lB4uA%3D%3D)
-    * 1 ea [SN74HC595N 8-Bit Shift Register](https://www.mouser.com/ProductDetail/?qs=IEl3ej0IqwBTHkYa8XPoMQ%3D%3D)
-    * 1 ea [16-pin IC Socket](https://www.mouser.com/ProductDetail/?qs=5aG0NVq1C4zi9nx%252BGroISQ%3D%3D)
+    * 1 ea [2N3906 PNP Transistor](https://www.mouser.com/ProductDetail/?qs=iN0KuJO79Kbn9o7a2lB4uA%3D%3D) (Q1)
+    * 1 ea [SN74HC595N 8-Bit Shift Register](https://www.mouser.com/ProductDetail/?qs=IEl3ej0IqwBTHkYa8XPoMQ%3D%3D) (U1)
+    * 1 ea [16-pin IC Socket](https://www.mouser.com/ProductDetail/?qs=5aG0NVq1C4zi9nx%252BGroISQ%3D%3D) (U1)
   * From Adafruit:
     * [Shield stacking headers for Arduino](https://www.adafruit.com/product/85)
     * [Break-away 0.1" 36-pin strip male header - Black - 10 pack](https://www.adafruit.com/product/392), more than enough for:
