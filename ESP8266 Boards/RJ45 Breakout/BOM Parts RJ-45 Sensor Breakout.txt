@@ -1,9 +1,0 @@
-Partlist exported from C:/Users/lee/OneDrive/Documents/GitHub/brewpi-pcb-rmx/RJ45 Breakout/RJ-45 Sensor Breakout.sch at 11/30/2019 4:38 PM
-
-Part Value   Device   Package               Description                       MF MPN     OC_FARNELL OC_NEWARK
-J1   RJ45-8X RJ45-8X  RJ45-NO-SHIELD-NOLINE CORCOM Modular RJ Jacks No Shield    RJ45-8X unknown    16R6101  
-JP1          HDR-3    HDR-3_VERT            PIN HEADER                                                       
-JP2          HDR-3    HDR-3_VERT            PIN HEADER                                                       
-JP3  OneWire HDR-3    HDR-3_VERT            PIN HEADER                                                       
-JP4  HDR-2   HDR-2    HDR-2_VERT                                                                             
-X1           W237-102 W237-102              WAGO SCREW CLAMP                     237-102 unknown    70K9898  
