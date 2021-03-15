@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -229,8 +229,7 @@
 <text x="44.5" y="32.9" size="0.8128" layer="26" ratio="10" rot="MR0">8</text>
 <text x="63.1" y="61.2" size="0.8128" layer="25" font="vector" ratio="10">GND</text>
 <text x="72.1614" y="51.3207" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0">BrewPi Remix I2C/RevC Shield
-@CadiBrewer v1.3.1a
-Inspired by @LBussy
+v1.3.3 by @LBussy
 Based on a design by @day_trippr</text>
 <text x="72.1614" y="39.9288" size="0.8128" layer="26" font="vector" rot="MR0">RJ45 Pinout:
 1 - 
