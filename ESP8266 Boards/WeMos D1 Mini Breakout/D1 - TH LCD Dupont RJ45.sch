@@ -1336,11 +1336,11 @@ W = angled&lt;p&gt;
 </classes>
 <parts>
 <part name="U$1" library="Wemos" deviceset="WEMOS" device="NOTEXT"/>
-<part name="X" library="con-wago-500" deviceset="W237-102" device="" value="PWR"/>
+<part name="POWER" library="con-wago-500" deviceset="W237-102" device="" value="PWR"/>
 <part name="J1" library="con-tycoelectronics" deviceset="RJ45" device="" technology="-8X"/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="2.2k"/>
-<part name="RELAY" library="Donnie" deviceset="HDR-4" device="" value="SV2"/>
-<part name="SV2" library="Donnie" deviceset="HDR-4" device="" value="LCD"/>
+<part name="RELAY" library="Donnie" deviceset="HDR-4" device="" value="4-PIN"/>
+<part name="LCD" library="Donnie" deviceset="HDR-4" device="" value="4-PIN"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k"/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k"/>
@@ -1351,9 +1351,9 @@ W = angled&lt;p&gt;
 <part name="C4" library="Donnie" deviceset="CAP_CERAMIC_2.54" device="" value="0.1μF"/>
 <part name="C3" library="Donnie" deviceset="CAP_CERAMIC_2.54" device="" value="1.0μF"/>
 <part name="C2" library="Donnie" deviceset="CAP_CERAMIC_2.54" device="" value="0.1μF"/>
-<part name="POWER" library="Donnie" deviceset="HDR-2" device="" value="SV1"/>
+<part name="RPOWER" library="Donnie" deviceset="HDR-2" device="" value="2-PIN"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device="" value=" "/>
-<part name="VCC" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="SV3"/>
+<part name="VCC" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="3-PIN"/>
 </parts>
 <sheets>
 <sheet>
@@ -1364,10 +1364,10 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="111.76" y="122.682" size="1.27" layer="95"/>
 <attribute name="VALUE" x="111.76" y="96.52" size="1.778" layer="96"/>
 </instance>
-<instance part="X" gate="-1" x="165.1" y="60.96" smashed="yes" rot="R90">
+<instance part="POWER" gate="-1" x="165.1" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="164.211" y="60.96" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="X" gate="-2" x="170.18" y="60.96" smashed="yes" rot="R90">
+<instance part="POWER" gate="-2" x="170.18" y="60.96" smashed="yes" rot="R90">
 <attribute name="VALUE" x="163.195" y="62.992" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="169.291" y="60.96" size="1.778" layer="95" rot="R270"/>
 </instance>
@@ -1383,9 +1383,9 @@ W = angled&lt;p&gt;
 <attribute name="VALUE" x="36.83" y="111.76" size="1.778" layer="96"/>
 <attribute name="NAME" x="35.814" y="117.348" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="SV2" gate="1" x="215.9" y="78.74" smashed="yes" rot="R180">
+<instance part="LCD" gate="1" x="215.9" y="78.74" smashed="yes" rot="R180">
 <attribute name="VALUE" x="217.17" y="83.82" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="217.17" y="72.898" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="219.71" y="72.898" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="160.02" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="161.5186" y="135.89" size="1.778" layer="95" rot="R270"/>
@@ -1427,7 +1427,7 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="133.096" y="80.899" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="133.096" y="85.979" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="POWER" gate="G$1" x="38.1" y="134.62" smashed="yes">
+<instance part="RPOWER" gate="G$1" x="38.1" y="134.62" smashed="yes">
 <attribute name="VALUE" x="36.83" y="129.54" size="1.778" layer="96"/>
 <attribute name="NAME" x="35.56" y="131.826" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -1449,7 +1449,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="132.08" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="X" gate="-2" pin="KL"/>
+<pinref part="POWER" gate="-2" pin="KL"/>
 <wire x1="170.18" y1="66.04" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
 <junction x="170.18" y="91.44"/>
 <wire x1="91.44" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
@@ -1462,7 +1462,7 @@ W = angled&lt;p&gt;
 <wire x1="149.86" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="RELAY" gate="1" pin="1"/>
 <wire x1="45.72" y1="116.84" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="SV2" gate="1" pin="1"/>
+<pinref part="LCD" gate="1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <junction x="139.7" y="91.44"/>
 <pinref part="J1" gate="G$1" pin="5"/>
@@ -1490,7 +1490,7 @@ W = angled&lt;p&gt;
 <junction x="144.78" y="73.66"/>
 <wire x1="149.86" y1="73.66" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <junction x="149.86" y="91.44"/>
-<pinref part="POWER" gate="G$1" pin="2"/>
+<pinref part="RPOWER" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="137.16" x2="91.44" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="137.16" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
 <junction x="91.44" y="116.84"/>
@@ -1502,7 +1502,7 @@ W = angled&lt;p&gt;
 <wire x1="132.08" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="101.6" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="X" gate="-1" pin="KL"/>
+<pinref part="POWER" gate="-1" pin="KL"/>
 <wire x1="165.1" y1="66.04" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 <junction x="165.1" y="96.52"/>
@@ -1515,7 +1515,7 @@ W = angled&lt;p&gt;
 <wire x1="208.28" y1="76.2" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="76.2" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="106.68" x2="88.9" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="SV2" gate="1" pin="2"/>
+<pinref part="LCD" gate="1" pin="2"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="86.36" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 <junction x="144.78" y="96.52"/>
@@ -1537,7 +1537,7 @@ W = angled&lt;p&gt;
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="86.36" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="POWER" gate="G$1" pin="1"/>
+<pinref part="RPOWER" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="134.62" x2="45.72" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="86.36" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="VCC" gate="G$1" pin="1"/>
@@ -1639,7 +1639,7 @@ W = angled&lt;p&gt;
 </net>
 <net name="5VSCL" class="0">
 <segment>
-<pinref part="SV2" gate="1" pin="4"/>
+<pinref part="LCD" gate="1" pin="4"/>
 <wire x1="208.28" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="71.12" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -1654,7 +1654,7 @@ W = angled&lt;p&gt;
 <net name="5VSDA" class="0">
 <segment>
 <wire x1="208.28" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="SV2" gate="1" pin="3"/>
+<pinref part="LCD" gate="1" pin="3"/>
 <wire x1="175.26" y1="73.66" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="104.14" x2="175.26" y2="101.6" width="0.1524" layer="91"/>

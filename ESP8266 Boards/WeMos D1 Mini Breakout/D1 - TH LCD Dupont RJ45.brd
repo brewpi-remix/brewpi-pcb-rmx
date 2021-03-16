@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.15" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.15" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17330,7 +17330,7 @@ Please make sure your boards conform to these design rules.
 Note, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. 
 &lt;a href=&quot;http://docs.oshpark.com/design-tools/eagle/design-rules-files/&quot;&gt;Adjustable Settings&lt;/a&gt;
 &lt;/p&gt;</description>
-<param name="layerSetup" value="1*16"/>
+<param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
 <param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
 <param name="mdWireWire" value="8mil"/>
@@ -17383,7 +17383,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="30mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -17500,12 +17500,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="U$1" library="Wemos" package="WEMOS_D1-NOTEXT" value="WEMOSNOTEXT" x="18.52" y="7.9" smashed="yes"/>
-<element name="X" library="con-wago-500" package="W237-102" value="PWR" x="36.28" y="39.985" smashed="yes" rot="R180">
+<element name="POWER" library="con-wago-500" package="W237-102" value="PWR" x="36.28" y="39.985" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="36.28" y="39.985" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="237-102" x="36.28" y="39.985" size="0.8128" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="36.274290625" y="35.97815" size="0.8128" layer="25" font="vector" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="36.28" y="39.985" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="36.28" y="39.985" size="0.8128" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="36.28" y="36" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="J1" library="con-tycoelectronics" package="RJ45-NO-SHIELD-NOLINE" value="RJ45-8X" x="8.36" y="4.305" smashed="yes">
 <attribute name="MF" value="" x="8.36" y="4.305" size="1.778" layer="27" display="off"/>
@@ -17519,10 +17519,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U$2" library="holes" package="3,0" value="" x="5.82" y="39.66" smashed="yes"/>
 <element name="U$4" library="holes" package="3,0" value="" x="31.22" y="4.1" smashed="yes"/>
-<element name="RELAY" library="Donnie" package="HDR-4_VERT" value="SV2" x="14.46" y="40.235" smashed="yes">
+<element name="RELAY" library="Donnie" package="HDR-4_VERT" value="4-PIN" x="14.46" y="40.235" smashed="yes">
 <attribute name="VALUE" x="13.16" y="41.913" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="SV2" library="Donnie" package="HDR-4_VERT" value="LCD" x="3.86" y="22.425" smashed="yes" rot="R90">
+<element name="LCD" library="Donnie" package="HDR-4_VERT" value="4-PIN" x="3.86" y="22.425" smashed="yes" rot="R90">
 <attribute name="VALUE" x="2.082" y="22.425" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k" x="31.84065" y="19.93971875" smashed="yes" rot="R180">
@@ -17559,10 +17559,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C2" library="Donnie" package="CAP_PTH-2.54" value="0.1μF" x="39.7" y="29.43" smashed="yes">
 <attribute name="NAME" x="36.822" y="29.427" size="0.8128" layer="25" font="vector" align="center-right"/>
 </element>
-<element name="POWER" library="Donnie" package="HDR-2_VERT" value="SV1" x="24.63" y="40.25" smashed="yes">
+<element name="RPOWER" library="Donnie" package="HDR-2_VERT" value="2-PIN" x="24.63" y="40.25" smashed="yes">
 <attribute name="VALUE" x="23.32" y="41.905" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="VCC" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="SV3" x="6.408425" y="19.187159375" smashed="yes">
+<element name="VCC" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="3-PIN" x="6.408425" y="19.187159375" smashed="yes">
 <attribute name="MF" value="" x="6.408425" y="19.187159375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="6.408425" y="19.187159375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="10.546084375" y="19.203671875" size="0.8128" layer="25" font="vector" align="center-left"/>
@@ -17574,16 +17574,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signals>
 <signal name="GND" class="3">
 <contactref element="U$1" pad="GND"/>
-<contactref element="X" pad="2"/>
+<contactref element="POWER" pad="2"/>
 <contactref element="RELAY" pad="1"/>
-<contactref element="SV2" pad="1"/>
+<contactref element="LCD" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="J1" pad="5"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C3" pad="2"/>
 <wire x1="35.356921875" y1="14.68" x2="39.596921875" y2="10.44" width="1.27" layer="1"/>
-<contactref element="POWER" pad="2"/>
+<contactref element="RPOWER" pad="2"/>
 <wire x1="39.596921875" y1="10.44" x2="41.38" y2="10.44" width="1.27" layer="1"/>
 <wire x1="27.17" y1="40.25" x2="27.17" y2="37.53" width="1.27" layer="1"/>
 <wire x1="27.17" y1="37.53" x2="29.3" y2="35.4" width="1.27" layer="1"/>
@@ -17613,17 +17613,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="39.1954" y1="26.1954" x2="39.2" y2="26.2" width="1.27" layer="16"/>
 <wire x1="39.2" y1="26.2" x2="39.2" y2="27.0908" width="1.27" layer="16"/>
 <wire x1="39.2" y1="27.0908" x2="38.303" y2="27.9878" width="1.27" layer="16"/>
-<polygon width="1.27" layer="1">
+<polygon width="1.27" layer="1" orphans="yes">
 <vertex x="-0.62103125" y="44.60748125"/>
 <vertex x="-0.62103125" y="-0.069840625" curve="45"/>
 <vertex x="-0.4953" y="-0.37338125"/>
 <vertex x="44.471740625" y="-0.37338125" curve="-45"/>
 <vertex x="44.618909375" y="-0.434340625"/>
 <vertex x="44.618909375" y="44.48175"/>
-<vertex x="-0.287171875" y="44.48175" curve="-45"/>
 <vertex x="-0.434340625" y="44.542709375"/>
 </polygon>
-<polygon width="1.27" layer="16">
+<polygon width="1.27" layer="16" orphans="yes">
 <vertex x="-0.556259375" y="44.48175"/>
 <vertex x="-0.556259375" y="-0.681990625"/>
 <vertex x="44.44110625" y="-0.681990625" curve="-45"/>
@@ -17640,17 +17639,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.3256" y1="7.95528125" x2="17.019271875" y2="5.261609375" width="1.27" layer="1"/>
 <wire x1="17.019271875" y1="5.261609375" x2="23.435309375" y2="5.261609375" width="1.27" layer="1"/>
 <wire x1="23.435309375" y1="5.261609375" x2="25.402" y2="7.2283" width="1.27" layer="1"/>
+<via x="1.28396875" y="15.03806875" extent="1-16" drill="0.35"/>
+<via x="20.82165" y="9.4869" extent="1-16" drill="0.35"/>
+<via x="31.809690625" y="42.953940625" extent="1-16" drill="0.35"/>
+<via x="43.087290625" y="33.303209375" extent="1-16" drill="0.35"/>
+<via x="43.00346875" y="42.877740625" extent="1-16" drill="0.35"/>
+<via x="1.1811" y="42.942509375" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="5V" class="1">
 <contactref element="U$1" pad="5V"/>
-<contactref element="X" pad="1"/>
-<contactref element="SV2" pad="2"/>
+<contactref element="POWER" pad="1"/>
+<contactref element="LCD" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="R2" pad="P$1"/>
 <contactref element="R1" pad="P$1"/>
 <wire x1="43.1058" y1="9.6258" x2="43.1058" y2="27.4212" width="1.27" layer="1"/>
 <contactref element="C2" pad="2"/>
-<contactref element="POWER" pad="1"/>
+<contactref element="RPOWER" pad="1"/>
 <wire x1="17.78065" y1="32.081984375" x2="17.78065" y2="33.78065" width="1.27" layer="1"/>
 <wire x1="19.2" y1="35.2" x2="22.2" y2="35.2" width="1.27" layer="1"/>
 <wire x1="17.78065" y1="33.78065" x2="19.2" y2="35.2" width="1.27" layer="1"/>
@@ -17776,7 +17781,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="15.2" y1="21.9" x2="16.5" y2="20.6" width="1.27" layer="1"/>
 </signal>
 <signal name="5VSCL">
-<contactref element="SV2" pad="4"/>
+<contactref element="LCD" pad="4"/>
 <contactref element="R2" pad="P$2"/>
 <contactref element="Q1" pad="3"/>
 <wire x1="25.41" y1="29.5" x2="27.6" y2="29.5" width="1.27" layer="1"/>
@@ -17789,7 +17794,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.349959375" y1="30.045" x2="3.86" y2="30.045" width="1.27" layer="16"/>
 </signal>
 <signal name="5VSDA">
-<contactref element="SV2" pad="3"/>
+<contactref element="LCD" pad="3"/>
 <contactref element="R1" pad="P$2"/>
 <contactref element="Q2" pad="3"/>
 <wire x1="30.579365625" y1="17.179365625" x2="33.7" y2="20.3" width="1.27" layer="16"/>

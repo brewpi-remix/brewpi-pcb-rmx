@@ -1,27 +1,28 @@
 Partlist
 
-Exported from D1 - TH LCD Dupont RJ45.brd at 11/30/2019 3:01 PM
+Exported from D1 - TH LCD Dupont RJ45.sch at 3/16/2021 7:05 AM
 
-EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
 
 Assembly variant: 
 
-Part     Value          Package               Library             Position (mm)         Orientation
+Part     Value          Device               Package               Library             Sheet
 
-C1       1.0?F          CAP_PTH-2.54          Donnie              (39.7 32.437)         R0
-C2       0.1?F          CAP_PTH-2.54          Donnie              (39.7 29.43)          R0
-C3       1.0?F          CAP_PTH-2.54          Donnie              (24.005 14.68)        R0
-C4       0.1?F          CAP_PTH-2.54          Donnie              (24.005 11.76)        R0
-J1       RJ45-8X        RJ45-NO-SHIELD-NOLINE con-tycoelectronics (8.36 4.305)          R0
-Q1       2N7000         TO-92                 Donnie              (31.849365625 24.991378125) R180
-Q2       2N7000         TO-92                 Donnie              (31.849365625 12.7449) R180
-R1       10k            AXIAL-0.3             SparkFun-Resistors  (21.59065 32.081984375) R0
-R2       10k            AXIAL-0.3             SparkFun-Resistors  (21.6 29.5)           R0
-R3       10k            AXIAL-0.3             SparkFun-Resistors  (31.84065 19.93971875) R180
-R4       10k            AXIAL-0.3             SparkFun-Resistors  (31.84065 16.691459375) R0
-R5       2.2k           AXIAL-0.3             SparkFun-Resistors  (25.37 22.76)         R270
-SV1      RELAY          HDR-4_VERT            Donnie              (14.46 40.235)        R0
-SV2      LCD            HDR-4_VERT            Donnie              (3.86 22.425)         R90
-SV3      PWR            HDR-2_VERT            Donnie              (24.63 40.25)         R0
-U$1      WEMOSNOTEXT    WEMOS_D1-NOTEXT       Wemos               (18.52 7.9)           R0
-X        PWR            W237-102              con-wago-500        (36.28 39.985)        R180
+C1       1.0?F          CAP_CERAMIC_2.54     CAP_PTH-2.54          Donnie              1
+C2       0.1?F          CAP_CERAMIC_2.54     CAP_PTH-2.54          Donnie              1
+C3       1.0?F          CAP_CERAMIC_2.54     CAP_PTH-2.54          Donnie              1
+C4       0.1?F          CAP_CERAMIC_2.54     CAP_PTH-2.54          Donnie              1
+J1       RJ45-8X        RJ45-8X              RJ45-NO-SHIELD-NOLINE con-tycoelectronics 1
+LCD      4-PIN          HDR-4                HDR-4_VERT            Donnie              1
+POWER    PWR            W237-102             W237-102              con-wago-500        1
+Q1       2N7000         2N7000               TO-92                 Donnie              1
+Q2       2N7000         2N7000               TO-92                 Donnie              1
+R1       10k            10KOHM-HORIZ-1/4W-1% AXIAL-0.3             SparkFun-Resistors  1
+R2       10k            10KOHM-HORIZ-1/4W-1% AXIAL-0.3             SparkFun-Resistors  1
+R3       10k            10KOHM-HORIZ-1/4W-1% AXIAL-0.3             SparkFun-Resistors  1
+R4       10k            10KOHM-HORIZ-1/4W-1% AXIAL-0.3             SparkFun-Resistors  1
+R5       2.2k           10KOHM-HORIZ-1/4W-1% AXIAL-0.3             SparkFun-Resistors  1
+RELAY    4-PIN          HDR-4                HDR-4_VERT            Donnie              1
+RPOWER   2-PIN          HDR-2                HDR-2_VERT            Donnie              1
+U$1      WEMOSNOTEXT    WEMOSNOTEXT          WEMOS_D1-NOTEXT       Wemos               1
+VCC      3-PIN          MA03-1               MA03-1                con-lstb            1
