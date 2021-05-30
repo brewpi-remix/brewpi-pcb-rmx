@@ -1,5 +1,17 @@
 # ![BrewPi Remix Logo](https://raw.githubusercontent.com/lbussy/brewpi-www-rmx/master/images/brewpi_logo.png)
 
+Make or buy?  That is the question.  Since providing the below listed DIY breakout, I found these on Amazon (of course!):
+
+- [Four-Way RJ45 Breakout Board](https://smile.amazon.com/Electronics-Salon-4-Way-Breakout-Terminal-Connector/dp/B01GNOBDPM)
+- [RJ45 Ethernet Splitter (2-way)](https://smile.amazon.com/Splitter-Connectors-Ethernet-Interface-Internet/dp/B07CW7JHYV)
+- [RJ45 Ethernet Splitter (3-way)](https://smile.amazon.com/Ethernet-Splitter-vienon-Adapter-Connector/dp/B0932B8JGJ)
+
+I have the below setup in all my fermenters, but I have to say I might be tempted to use these if I had to do it again.
+
+Note: These links are NOT affiliat elinks but are pointing to [smile.amazon.com](https://smile.amazon.com/gp/chpf/about/).  If you are not currently enrolled in this program, you should at least review the link.  It's an easy way to support your favorite charity every time you shop on Amazon.  If you are at a loss to pick a charity, may I suggest the [Wounded Warrior Project](https://www.woundedwarriorproject.org/)?
+
+If you are interested in building a splitter, here's one way to go:
+
 # RJ-45 Sensor Breakout
 
 A breakout board created to connect sensors and the door switch via an RJ-45 straight-through cable (i.e. Ethernet.)
