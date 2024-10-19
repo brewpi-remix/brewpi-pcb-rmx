@@ -4,7 +4,7 @@
 
 Arduino Uno shield for the [BrewPi Remix](https://www.brewpiremix.com) project. This is an new board design which incorporates an I2C LCD header in addition to the original parallel LCD header on the RevC.  The I2C display is supported in version 0.5.3 of BrewPi Legacy Remix Scripts, WWW and Tools, coupled with version 0.2.12 of the Arduino Firmware.
 
-[Order from PCBs.io](https://PCBs.io/share/zdeBw):
+[Order from PCBs.io]():  (I removed this link because PCBs.io appear to have been overtaken by malware.  [OshPark](https://oshpark.com/) is a good choice for smaller quantities.)
 
 - 2 Layer Board - 5.1164 sq in (2.1200in x 2.4134in) / 3300.9 sq/mm (53.85mm x 61.3mm)
 - $19.39 per set of 4 ($3.79 per sq in)
